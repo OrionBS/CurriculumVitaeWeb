@@ -27,7 +27,7 @@ div.bg-purple {
     flex-direction: column;
     width: 1000px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 50px;
 }
 
 /* Définition de la classe row pour accueillir des col. */
@@ -64,8 +64,12 @@ mark {
     padding: 0;
 }
 /* Padding Réseaux */
-.p-2 {
-    padding: 20px;
+.p-1 {
+    padding: 10px;
+}
+/* Margin Réseaux */
+.m-2 {
+    margin: 20px 20px 20px 0px;
 }
 
 /* Flex Start */
