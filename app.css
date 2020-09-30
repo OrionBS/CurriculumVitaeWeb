@@ -7,16 +7,22 @@ body {
 /* Définition des couleurs de fond de la page. */
 div.bg-purple {
     background-color: #6b52e6;
+    min-width :  1200px;
 }
-div.bg-white {
+.bg-white {
     background-color: #ffffff;
+    min-width :  1200px;
 }
-div.bg-darkblue {
+.bg-darkblue {
     background-color: #203966;
+    min-width :  1200px;
+}
+.bg-blue {
+    background-color: #4376b9;
 }
 
 /* Définition de la classe container pour accueilir des row. */
-div.container {
+.container {
     display: flex;
     flex-direction: column;
     width: 1000px;
@@ -24,15 +30,39 @@ div.container {
 }
 
 /* Définition de la classe row pour accueillir des col. */
-div.row {
+.row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between
+    justify-content: space-around
 }
 
 /* Définition de la classe col. */
-div.col {
+.col {
     display: flex;
     flex-direction: column;
 
+}
+
+/* Classe permettant de centrer verticalement et horizontalement */
+.center {
+    justify-content: center;
+}
+
+/*  */
+mark {
+	background-color: #86eca5;
+	color: #203966;
+}
+
+/* Sans margin */
+.m-0 {
+    margin: 0;
+}
+
+/* Couleurs de texte */
+.text-white {
+    color: #ffffff;
+}
+.text-darkblue {
+    color: #203966;
 }
