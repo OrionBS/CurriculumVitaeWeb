@@ -1,144 +1,38 @@
-
 /* Retrait de la margin naturelle du body + mise en place d'une police général */
-	body {
-		margin: 0px;
-		font-family: 'Ubuntu', sans-serif;
-	}
+body {
+	margin: 0px;
+	font-family: 'Ubuntu', sans-serif;
+}
 
+/* Définition des couleurs de fond de la page. */
+div.bg-purple {
+    background-color: #6b52e6;
+}
+div.bg-white {
+    background-color: #ffffff;
+}
+div.bg-darkblue {
+    background-color: #203966;
+}
 
+/* Définition de la classe container pour accueilir des row. */
+div.container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+}
 
+/* Définition de la classe row pour accueillir des col. */
+div.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
 
+/* Définition de la classe col. */
+div.col {
+    display: flex;
+    flex-direction: column;
 
-
-/* Mise en place du fond de couleur violette */
-	header#backgroundSelf {
-		background-color: #6b52e6;
-	}
-
-/* Définition des dimensions de la box du "SELF" */
-	div#positionSelf {
-		width: 1200px;
-		height: 350px;
-		margin: 0 auto;
-	}
-
-	div#contenuSelf {
-		display: inline-flex;
-	}
-
-/* Positionnement du texte "SELF" */
-	div#contenuSelf div.left {
-		height: 350px;
-		width: 600px;
-		margin-top: 100px;
-	}
-
-/* Contenu texte "SELF" */
-	div#contenuSelf div.left h1, div#contenuSelf div.left h3, div#contenuSelf div.left h4 {
-		color: #ffffff;
-		text-align: center;
-	}
-
-/* Positionnement de la photo "SELF" */
-	div#contenuSelf div.right {
-		height: 350px;
-		width: 600px;
-	}
-
-/* Dimension de la photo */
-	div.right img {
-		width: 300px;
-		height: 300px;
-		margin: 50px;
-	}
-
-
-
-
-
-
-/* Mise en place du fond de couleur banche */
-	section#backgroundSkills {
-		background-color: #ffffff;
-	}
-
-/* Définition des dimensions de la box du "SKILLS" */
-	div#positionSkills {
-		width: 1200px;
-		height: 350px;
-		margin: 0 auto;
-	}
-
-	div#contenuSkills {
-		display: inline-flex;
-	}
-
-/* Positionnement du logo "SKILLS" */
-	div#contenuSkills div.left {
-		height: 350px;
-		width: 400px;
-		margin-top: 20px;
-	}
-
-/* Position et taille logo java */
-	p#Java {
-		font-size: 250px;
-		margin: 0;
-		text-align: center;
-	}
-
-/* Positionnement du texte "SKILLS" */
-	div#contenuSkills div.right {
-		height: 350px;
-		width: 800px;
-		margin-top: 25px;
-	}
-
-
-
-
-
-
-
-/* Mise en place du fond de couleur bleue foncée */
-	footer#backgroundNetwork {
-		background-color: #203966;
-	}
-
-/* Définition des dimensions de la box du "NETWORK" */
-	div#positionNetwork {
-		width: 1200px;
-		height: 350px;
-		margin: 0 auto;
-	}
-
-	div#contenuNetwork {
-		padding-top: 70px;
-		padding-left: 50px;
-	}
-
-	div#contenuNetwork h2, div#contenuNetwork h3 {
-		color: #ffffff;
-	}
-
-	div.network {
-		display: inline-block;
-		background-color: #4376b9;
-	}
-
-	p.iconNetwork {
-		color: #ffffff;
-		margin: 0;
-		padding: 10px;
-		font-size: 50px;
-	}
-
-
-
-
-
-/*  */
-	mark {
-		background-color: #86eca5;
-		color: #203966;
-	}
+}
