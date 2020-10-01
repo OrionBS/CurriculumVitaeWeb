@@ -7,3 +7,5 @@ Project n°1 - OpenClassroom's training
 ---
 Un premier modèle non responsive a été réalisé.
 Prochaine étape la version responsive avec les MediaQueries.
+
+https://orionbs.github.io/curriculumVitaeWeb/
