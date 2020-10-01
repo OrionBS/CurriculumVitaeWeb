@@ -17,8 +17,8 @@ body {
     }
 
     /* Redimenssionement des textes. */
-    p {
-        font-size: 12px;
+    p, li {
+        font-size: 14px;
     }
 
     .fav {
@@ -39,8 +39,8 @@ body {
     }
 
     /* Redimenssionement des textes. */
-    p {
-        font-size: 11px;
+    p, li {
+        font-size: 13px;
     }
 
     .fav {
@@ -61,8 +61,8 @@ body {
     }
 
     /* Redimenssionement des textes. */
-    p {
-        font-size: 10px;
+    p, li {
+        font-size: 12px;
     }
 
     .fav {
@@ -83,8 +83,8 @@ body {
     }
 
     /* Redimenssionement des textes. */
-    p {
-        font-size: 9px;
+    p, li {
+        font-size: 11px;
     }
 
     .fav {
@@ -103,8 +103,8 @@ body {
     }
 
     /* Redimenssionement des textes. */
-    p {
-        font-size: 8px;
+    p, li {
+        font-size: 10px;
     }
 
     .fav {
