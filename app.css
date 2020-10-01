@@ -16,6 +16,12 @@ body {
         padding: 50px;
     }
 
+    /* Redimenssionement des textes. */
+    p + li {
+        font-size : 12px;
+    }
+
+
 }
 @media all and (min-width: 992px) and (max-width: 1200px) {
 
@@ -25,8 +31,14 @@ body {
         flex-direction: column;
         width: 960px;
         margin: 0 auto;
-        padding: 50px;
+        padding: 40px;
     }
+
+    /* Redimenssionement des textes. */
+    p + li {
+        font-size : 11px;
+    }
+
 
 }
 @media all and (min-width: 768px) and (max-width: 992px) {
@@ -37,8 +49,14 @@ body {
         flex-direction: column;
         width: 720px;
         margin: 0 auto;
-        padding: 50px;
+        padding: 30px;
     }
+
+    /* Redimenssionement des textes. */
+    p + li {
+        font-size : 10px;
+    }
+
 
 }
 @media all and (min-width: 576px) and (max-width: 768px) {
@@ -49,9 +67,13 @@ body {
         flex-direction: column;
         width: 540px;
         margin: 0 auto;
-        padding: 50px;
+        padding: 20px;
     }
 
+    /* Redimenssionement des textes. */
+    p + li {
+        font-size : 9px;
+    }
 }
 @media all and (max-width: 576px) {
 
@@ -61,7 +83,12 @@ body {
         flex-direction: column;
         width: auto;
         margin: 0 auto;
-        padding: 50px;
+        padding: 10px;
+    }
+
+    /* Redimenssionement des textes. */
+    p + li {
+        font-size : 8px;
     }
 
 }
