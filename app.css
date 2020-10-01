@@ -21,7 +21,7 @@ body {
         font-size: 12px;
     }
 
-    p.fav {
+    .fav {
      font-size: 250px;
     }
 
@@ -39,11 +39,11 @@ body {
     }
 
     /* Redimenssionement des textes. */
-    p + li {
+    p {
         font-size: 11px;
     }
 
-    p.fav {
+    .fav {
          font-size: 225px;
         }
 
@@ -61,11 +61,11 @@ body {
     }
 
     /* Redimenssionement des textes. */
-    p + li {
+    p {
         font-size: 10px;
     }
 
-    p.fav {
+    .fav {
          font-size: 200px;
         }
 
@@ -83,11 +83,11 @@ body {
     }
 
     /* Redimenssionement des textes. */
-    p + li {
+    p {
         font-size: 9px;
     }
 
-    p.fav {
+    .fav {
          font-size: 175px;
         }
 }
@@ -103,11 +103,11 @@ body {
     }
 
     /* Redimenssionement des textes. */
-    p + li {
+    p {
         font-size: 8px;
     }
 
-    p.fav {
+    .fav {
          font-size: 150px;
         }
 
