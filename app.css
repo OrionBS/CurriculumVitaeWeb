@@ -4,30 +4,82 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 }
 
+/* MEDIA QUERIES RULES */
+@media all and (min-width: 1200px) {
+
+    /* Définition de la classe container pour accueilir des row. */
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 1140px;
+        margin: 0 auto;
+        padding: 50px;
+    }
+
+}
+@media all and (min-width: 992px) and (max-width: 1200px) {
+
+    /* Définition de la classe container pour accueilir des row. */
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 960px;
+        margin: 0 auto;
+        padding: 50px;
+    }
+
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+
+    /* Définition de la classe container pour accueilir des row. */
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 720px;
+        margin: 0 auto;
+        padding: 50px;
+    }
+
+}
+@media all and (min-width: 576px) and (max-width: 768px) {
+
+    /* Définition de la classe container pour accueilir des row. */
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 540px;
+        margin: 0 auto;
+        padding: 50px;
+    }
+
+}
+@media all and (max-width: 576px) {
+
+    /* Définition de la classe container pour accueilir des row. */
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: 0 auto;
+        padding: 50px;
+    }
+
+}
+
+
+
 /* Définition des couleurs de fond de la page. */
 div.bg-purple {
     background-color: #6b52e6;
-    min-width :  1200px;
 }
 .bg-white {
     background-color: #ffffff;
-    min-width :  1200px;
 }
 .bg-darkblue {
     background-color: #203966;
-    min-width :  1200px;
 }
 .bg-blue {
     background-color: #4376b9;
-}
-
-/* Définition de la classe container pour accueilir des row. */
-.container {
-    display: flex;
-    flex-direction: column;
-    width: 1000px;
-    margin: 0 auto;
-    padding: 50px;
 }
 
 /* Définition de la classe row pour accueillir des col. */
