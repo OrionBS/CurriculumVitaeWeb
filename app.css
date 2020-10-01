@@ -25,6 +25,11 @@ body {
      font-size: 250px;
     }
 
+    .self {
+        width: 350px;
+        height: 350px;
+    }
+
 
 }
 @media all and (min-width: 992px) and (max-width: 1200px) {
@@ -46,6 +51,11 @@ body {
     .fav {
          font-size: 225px;
         }
+
+    .self {
+        width: 325px;
+        height: 325px;
+    }
 
 
 }
@@ -69,6 +79,10 @@ body {
          font-size: 200px;
         }
 
+    .self {
+        width: 300px;
+        height: 300px;
+    }
 
 }
 @media all and (min-width: 576px) and (max-width: 768px) {
@@ -90,6 +104,11 @@ body {
     .fav {
          font-size: 175px;
         }
+
+    .self {
+        width: 275px;
+        height: 275px;
+    }
 }
 @media all and (max-width: 576px) {
 
@@ -111,6 +130,10 @@ body {
          font-size: 150px;
         }
 
+    .self {
+        width: 250px;
+        height: 250px;
+    }
 }
 
 
