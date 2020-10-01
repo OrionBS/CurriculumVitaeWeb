@@ -17,8 +17,12 @@ body {
     }
 
     /* Redimenssionement des textes. */
-    p + li {
-        font-size : 12px;
+    p {
+        font-size: 12px;
+    }
+
+    p.fav {
+     font-size: 250px;
     }
 
 
@@ -36,8 +40,12 @@ body {
 
     /* Redimenssionement des textes. */
     p + li {
-        font-size : 11px;
+        font-size: 11px;
     }
+
+    p.fav {
+         font-size: 225px;
+        }
 
 
 }
@@ -54,8 +62,12 @@ body {
 
     /* Redimenssionement des textes. */
     p + li {
-        font-size : 10px;
+        font-size: 10px;
     }
+
+    p.fav {
+         font-size: 200px;
+        }
 
 
 }
@@ -72,8 +84,12 @@ body {
 
     /* Redimenssionement des textes. */
     p + li {
-        font-size : 9px;
+        font-size: 9px;
     }
+
+    p.fav {
+         font-size: 175px;
+        }
 }
 @media all and (max-width: 576px) {
 
@@ -88,11 +104,14 @@ body {
 
     /* Redimenssionement des textes. */
     p + li {
-        font-size : 8px;
+        font-size: 8px;
     }
 
-}
+    p.fav {
+         font-size: 150px;
+        }
 
+}
 
 
 /* Définition des couleurs de fond de la page. */
