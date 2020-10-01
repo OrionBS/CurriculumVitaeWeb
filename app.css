@@ -53,8 +53,7 @@ body {
         }
 
     .self {
-        width: 300px;
-        height: 300px;
+        width: 100%;
     }
 
 
@@ -80,8 +79,7 @@ body {
         }
 
     .self {
-        width: 250px;
-        height: 250px;
+        width: 100%;
     }
 
 }
